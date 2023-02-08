@@ -69,7 +69,6 @@ body {
     font-style: Regular;
     font-size: 14px;
     line-height: 28px;
-    line-height: 133%;
     text-align: left;
     vertical-align: top;
     Fill: Solid;
@@ -87,7 +86,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    line-height: 100%;
     text-align: center;
     Vertical-align: Top;
     Fill: Solid;
@@ -105,7 +103,6 @@ body {
     font-weight: 600;
     Font-size: 16px;
     Line-height: 24px;
-    Line-height: 100%;
     Vertical-align: Top;
     Fill: Solid;
     color: #FFFFFF;
@@ -147,7 +144,6 @@ body {
     font-style: bold;
     font-size: 44px;
     line-height: 54px;
-    line-height: 82%;
     text-align: Left;
     vertical-align: Top;
     Fill: Solid;
@@ -160,7 +156,6 @@ body {
     font-style: Regular;
     font-size: 18px;
     line-height: 28px;
-    line-height: 104%;
     text-align: Left;
     vertical-align: Top;
     Fill: Solid;
@@ -185,15 +180,11 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    line-height: 100%;
     text-align: center;
     vertical-align: top;
     Fill: Solid;
     color: #FFFFFF;
     border: none;
-    
-    
-
  }
 
  .btn-2 {
@@ -203,22 +194,12 @@ body {
     font-style: bold;
     Font-size: 16px;
     Line-height: 24px;
-    Line-height: 100%;
     text-align: center;
     vertical-align: top;
     Fill: Solid;
     color: #FF9900;
     border: none;
     background-color: white;
-}
-
-.dancing-img {
-    margin-left: 666px;
-    margin-top: 128px;  
-    Width: 605px;
-    Height: 496px;
-    margin-left: 3px;
-    display: flex;
 }
 
 .container2 {
@@ -235,8 +216,7 @@ body {
     font-style: Bold;
     font-weight: 700;
     font-size: 36px;
-    Line-height: 54px;
-    Line-height: 100%;  
+    Line-height: 54px; 
     text-align: Center;
     Vertical-align: Top;
     Fill: Solid;
@@ -269,7 +249,6 @@ body {
     font-weight: 600;
     Font-size: 22px;    
     Line-height: 33px;
-    Line-height: 100%;
     text-align: Left;
     Vertical-align: Top;
     Fill: Solid;
@@ -283,7 +262,6 @@ body {
     Font-style: Medium;
     Font-size: 16px;
     Line-height: 26px;
-    Line-height: 108%;
     text-align: Left;
     Vertical-align: Top;
     Fill: Solid;
@@ -307,7 +285,6 @@ body {
     font-weight: 700;
     Font-size: 16px;
     Line-height: 24px;   
-    Line-height: 100%;
     Vertical-align: Top;
     Fill: Solid;
     color: #FFFFFF;
@@ -318,8 +295,139 @@ body {
 .container3 {
     Width: 1110px;
     Height: 574px;
+    display: flex;
+    justify-content: center;
 
     border: dotted
+}
 
+.container3-info {
+    width: 486px;
+    height: 531px;
+    border:dotted;
+}
+
+.text3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    fill: solid;
+    color: #544837;
+
+}
+
+.title3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    Vertical-align: top;
+    Fill: Solid;
+    color: #2F281E;
+
+}
+
+.text3-1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+    fill: solid;
+    color: #544837;
+    margin-top: 22px;
+}
+
+.text-heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+    fill: solid;
+    color: #2F281E;
+
+}
+
+.text-info {
+    font-family: 'Poppins', sans-serif;
+    font-style: medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+    fill: solid;
+    color: #544837;
+}
+
+.container4 {
+    width: 1121px;
+    height: 521px;
+    display: flex;
+    border:dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container4-info{
+    width: 486px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    
+
+    border: dotted;
+}
+
+.checkbox {
+    width: 430px;
+    height: 52px;
+    border: dotted;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-footer {
+    width: 1109px;
+    height: 308px;
+
+    border:dotted;
+}
+
+.item-container1 {
+    width: 72px;
+    height: 140px;
+
+    border:dotted;
+}
+
+.item-container2 {
+    width: 132px;
+    height: 140px;
+    
+    border:dotted;
+}
+.item-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    vertical-align: top;
+    fill: Solid;
+    color: #5448;37
 }
 

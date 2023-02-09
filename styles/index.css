@@ -5,21 +5,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
-
-
 
 .container-header {
     width: 1400px;
     Height: 78px;
     margin-top: 20px;
     border: #173A56;
-    border: dotted;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between
-    
+    justify-content: space-between;   
 }
 
 .item-logo-img {
@@ -27,8 +24,7 @@ body {
     height: 30px;
     margin-left: 143.92px;
     margin-top: 22px;
-    display: flex;
-    
+    display: flex; 
 }
 
 
@@ -49,19 +45,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .navbar-content {
     max-width: 350px;
     width: 100%;
     height: 28px;
-    border: dotted;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-   
-    
 }
 
 .navbar-text {
@@ -74,25 +66,21 @@ body {
     Fill: Solid;
     color:#2F281E;
     display: flex;
-    
-    
 }
 
 .btn-sign-in {
-
-    Width: 102px;
+    width: 102px;
     Height: 46px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    Vertical-align: Top;
+    vertical-align: top;
     Fill: Solid;
     color: #173A56;
     background-color: white;
     border-color: #BCD0E5;
-    
 }
 
 .btn-sign-up {
@@ -102,41 +90,29 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     Font-size: 16px;
-    Line-height: 24px;
-    Vertical-align: Top;
+    line-height: 24px;
+    vertical-align: Top;
     Fill: Solid;
     color: #FFFFFF;
-    
-
 }
 
 .container {
-    
-    max-width: 1126px;
+    max-width: 1400px;
     width: 100%;
     height: 496px;
     border-color: #544837;
-
-    border: dotted;
-
     display: flex;
-    
-
-    
+    justify-content: center;
+    margin-bottom: 110px;
 }
 
 .container-info {
     max-width: 518px;
     width: 100%;
-    
     margin-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    
-
-    
 }
 
 .title {
@@ -146,28 +122,25 @@ body {
     line-height: 54px;
     text-align: Left;
     vertical-align: Top;
-    Fill: Solid;
+    Fill: solid;
     color: #2F281E;
  }
 
  .paragraph {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 28px;
     text-align: Left;
     vertical-align: Top;
-    Fill: Solid;
+    Fill: solid;
     color: #544837;
 }
-
 
 .buttons {
     display: flex;
     align-items: center;
 }
-
 
  .btn-1 {
     width: 175px;
@@ -193,7 +166,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: bold;
     Font-size: 16px;
-    Line-height: 24px;
+    line-height: 24px;
     text-align: center;
     vertical-align: top;
     Fill: Solid;
@@ -203,12 +176,9 @@ body {
 }
 
 .container2 {
-
-    width: 1126px;
+    max-width: 1126px;
+    width: 100%;
     height: 543px;
-    
-
-    border: dotted;
 }
 
 .title2 {
@@ -216,36 +186,29 @@ body {
     font-style: Bold;
     font-weight: 700;
     font-size: 36px;
-    Line-height: 54px; 
+    line-height: 54px; 
     text-align: Center;
     Vertical-align: Top;
     Fill: Solid;
     color: #2F281E;
-    
-
 }
 
 .container2-info {
-    width: 1095px;
+    max-width: 1095px;
     width: 100%;
     Height: 204px;
-    border:dotted;
     display: flex;
     justify-content: space-evenly;
-    
-
 }
 
 .items {
     Width: 240px;
     Height: 178px;
-    border: dotted;
     display: flex;
 }
 
  .item-title {
     font-family: 'Poppins', sans-serif;
-    Font-style: SemiBold;
     font-weight: 600;
     Font-size: 22px;    
     Line-height: 33px;
@@ -253,15 +216,14 @@ body {
     Vertical-align: Top;
     Fill: Solid;
     color:#2F281E;
-
- }
+}
 
 
 .text {
     font-family: 'Poppins', sans-serif;
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 26px;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 26px;
     text-align: Left;
     Vertical-align: Top;
     Fill: Solid;
@@ -271,8 +233,8 @@ body {
 .button3 {
     display: flex;
     justify-content: center;
-    
 }
+
 .btn-3 {
     width: 175px;
     height: 53px;
@@ -289,22 +251,21 @@ body {
     Fill: Solid;
     color: #FFFFFF;
     margin-top: 30px;
-    
 }
 
 .container3 {
-    Width: 1110px;
+    max-width: 1110px;
+    width: 100%;
     Height: 574px;
     display: flex;
     justify-content: center;
-
-    border: dotted
+    margin-bottom: 101px;
 }
 
 .container3-info {
-    width: 486px;
+    max-width: 486px;
+    width: 100%;
     height: 531px;
-    border:dotted;
 }
 
 .text3 {
@@ -317,7 +278,6 @@ body {
     vertical-align: top;
     fill: solid;
     color: #544837;
-
 }
 
 .title3 {
@@ -327,14 +287,12 @@ body {
     font-weight: 700;
     line-height: 54px;
     text-align: left;
-    Vertical-align: top;
+    vertical-align: top;
     Fill: Solid;
     color: #2F281E;
-
 }
 
 .text3-1 {
-
     font-family: 'Poppins', sans-serif;
     font-style: Medium;
     font-size: 16px;
@@ -357,7 +315,6 @@ body {
     vertical-align: top;
     fill: solid;
     color: #2F281E;
-
 }
 
 .text-info {
@@ -373,61 +330,103 @@ body {
 }
 
 .container4 {
-    width: 1121px;
+    max-width: 1400px;
+    width: 100%;
     height: 521px;
-    display: flex;
-    border:dotted;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 104px;
 }
 
-.container4-info{
-    width: 486px;
+.container4-info {
+    max-width: 486px;
+    width: 100%;
     height: 427px;
     display: flex;
     flex-direction: column;
-    
-
-    border: dotted;
+    align-items:flex-start
 }
 
 .checkbox {
-    width: 430px;
+    max-width: 486px;
+    width: 100%;
     height: 52px;
-    border: dotted;
-    display: flex;
-    justify-content: space-around;
-    
+    display: flex;  
 }
 
 .container-footer {
-    width: 1109px;
+    max-width: 1109px;
+    width: 100%;
     height: 308px;
-
-    border:dotted;
+    display: flex;
+    justify-content: space-around;
 }
 
-.item-container1 {
+.logo-footer {
+    margin-top: 102px;
+    margin-right: 126px;
+}
+
+.content-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container-footer1 {
     width: 72px;
     height: 140px;
-
-    border:dotted;
+    display: flex;
 }
 
-.item-container2 {
+.container-footer2 {
     width: 132px;
     height: 140px;
-    
-    border:dotted;
+    display: flex;
+    margin-left: 129px;
 }
+
 .item-list {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 35px;
     vertical-align: top;
     fill: Solid;
-    color: #5448;37
+    color: #544837;
+}
+
+.container-signupnow {
+    width: 325px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-left: 82px;
+}
+
+.emptybox {
+    width: 325px;
+    height: 48px;
+    border-color: #BCD0E5;
+    border-style: solid;
+    border-width: thin;
+}
+
+.btn-signupnow {
+    width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: top;
+    Fill: Solid;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 4px;
+    margin-top: 29px;
 }
 
